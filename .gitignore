@@ -1,0 +1,6 @@
+.DS_Store
+# esta carpeta es el bind mount para la persistencia de datos en docker
+# se ignora para que cuando se dockerize, el usuario cree credenciales nuevas en .env
+mysql 
+
+.env
